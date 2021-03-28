@@ -32,6 +32,6 @@ module.exports = (NODE) => {
   const dataOut = NODE.getOutputByName('data');
   dataOut.on('trigger', async (conn, state) => {
     const thisState = state.get(NODE);
-    return thisState.data;
+    return thisState?.data;
   });
 };
