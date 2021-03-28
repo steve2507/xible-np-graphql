@@ -1,0 +1,24 @@
+{
+  "name": "graphql.query",
+  "type": "action",
+  "description": "Execute a graphql query.",
+  "inputs": {
+    "trigger": {
+      "type": "trigger"
+    },
+    "clients": {
+      "type": "graphql.client"
+    },
+    "variables": {
+      "type": "variable"
+    }
+  },
+  "outputs": {
+    "done": {
+      "type": "trigger"
+    },
+    "data": {
+      "type": "object"
+    }
+  }
+}

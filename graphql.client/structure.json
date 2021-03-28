@@ -1,0 +1,10 @@
+{
+  "name": "graphql.client",
+  "type": "object",
+  "description": "A client to connect to a graphql server.",
+  "outputs": {
+    "client": {
+      "type": "graphql.client"
+    }
+  }
+}

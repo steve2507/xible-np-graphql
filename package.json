@@ -1,0 +1,28 @@
+{
+  "name": "xible-np-graphql",
+  "version": "0.1.0",
+  "description": "Set of graphql nodes for XIBLE.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spectrumbroad/xible-np-graphql"
+  },
+  "bugs": {
+    "url": "https://github.com/spectrumbroad/xible-np-graphql/issues",
+    "email": "bugs@xible.io"
+  },
+  "keywords": [
+    "xible",
+    "graphql",
+    "gql",
+    "nodepack"
+  ],
+  "scripts": {
+    "prepublishOnly": "npm shrinkwrap --only=prod"
+  },
+  "dependencies": {
+    "apollo-boost": "*",
+    "graphql": "*",
+    "node-fetch": "*"
+  }
+}

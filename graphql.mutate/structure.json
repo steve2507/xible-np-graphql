@@ -1,0 +1,27 @@
+{
+  "name": "graphql.mutate",
+  "type": "action",
+  "description": "Execute a graphql mutation.",
+  "inputs": {
+    "trigger": {
+      "type": "trigger"
+    },
+    "clients": {
+      "type": "graphql.client"
+    },
+    "variables": {
+      "type": "variable"
+    },
+    "queries": {
+      "type": "graphql.query"
+    }
+  },
+  "outputs": {
+    "done": {
+      "type": "trigger"
+    },
+    "data": {
+      "type": "object"
+    }
+  }
+}
